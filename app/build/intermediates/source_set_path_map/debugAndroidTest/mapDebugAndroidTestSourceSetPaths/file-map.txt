@@ -1,0 +1,6 @@
+com.example.cepnm.test.app-jetified-core-1.7.0-0 C:\Users\Kuba\.gradle\caches\8.11.1\transforms\510238dc58164cec65bc05b6c7539075\transformed\jetified-core-1.7.0\res
+com.example.cepnm.test.app-jetified-tracing-1.2.0-1 C:\Users\Kuba\.gradle\caches\8.11.1\transforms\acb25dbd990cca58fad20198365806bd\transformed\jetified-tracing-1.2.0\res
+com.example.cepnm.test.app-androidTest-2 C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\build\generated\res\resValues\androidTest\debug
+com.example.cepnm.test.app-mergeDebugAndroidTestResources-3 C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.cepnm.test.app-mergeDebugAndroidTestResources-4 C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.cepnm.test.app-debugAndroidTest-5 C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

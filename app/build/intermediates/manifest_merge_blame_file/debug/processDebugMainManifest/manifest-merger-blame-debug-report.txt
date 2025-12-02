@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cepnm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+18
+19    <supports-screens
+19-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:9:5-12:40
+20        android:anyDensity="true"
+20-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:10:9-34
+21        android:largeScreens="true"
+21-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:11:9-36
+22        android:normalScreens="true" />
+22-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:12:9-37
+23
+24    <uses-feature
+24-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.location.network"
+25-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:15:9-57
+26        android:required="false" />
+26-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:16:9-33
+27    <uses-feature
+27-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:17:5-19:36
+28        android:name="android.hardware.location.gps"
+28-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:18:9-53
+29        android:required="false" />
+29-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:19:9-33
+30    <uses-feature
+30-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:20:5-22:36
+31        android:name="android.hardware.telephony"
+31-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:21:9-50
+32        android:required="false" />
+32-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:22:9-33
+33    <uses-feature
+33-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:23:5-25:36
+34        android:name="android.hardware.wifi"
+34-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:24:9-45
+35        android:required="false" />
+35-->[org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:25:9-33
+36
+37    <application
+37-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:6:5-19:19
+38        android:allowBackup="true"
+38-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:7:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:label="CEPNM"
+42-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:8:9-30
+43        android:testOnly="true"
+44        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+44-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:9:9-67
+45        <activity android:name="com.example.cepnm.ui.PointDetailActivity" />
+45-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:10:9-60
+45-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:10:19-57
+46        <activity android:name="com.example.cepnm.ui.AddEditPointActivity" />
+46-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:11:9-61
+46-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:11:19-58
+47        <activity
+47-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:12:9-18:20
+48            android:name="com.example.cepnm.MainActivity"
+48-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:12:19-47
+49            android:exported="true" >
+49-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:13:13-36
+50            <intent-filter>
+50-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:14:13-17:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:15:17-68
+51-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:15:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:16:17-76
+53-->C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:16:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\99a534f1a6f124d73099273c50ae67a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\99a534f1a6f124d73099273c50ae67a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+59            android:authorities="com.example.cepnm.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\99a534f1a6f124d73099273c50ae67a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\99a534f1a6f124d73099273c50ae67a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\99a534f1a6f124d73099273c50ae67a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\99a534f1a6f124d73099273c50ae67a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\99a534f1a6f124d73099273c50ae67a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\56c4486ad10a0e494e32e4e60ff457f8\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\56c4486ad10a0e494e32e4e60ff457f8\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\56c4486ad10a0e494e32e4e60ff457f8\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+69                android:value="androidx.startup" />
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+70        </provider>
+71
+72        <service
+72-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\949330a9e2e95c438af6e24aa4dad5af\transformed\jetified-room-runtime\AndroidManifest.xml:24:9-28:63
+73            android:name="androidx.room.MultiInstanceInvalidationService"
+73-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\949330a9e2e95c438af6e24aa4dad5af\transformed\jetified-room-runtime\AndroidManifest.xml:25:13-74
+74            android:directBootAware="true"
+74-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\949330a9e2e95c438af6e24aa4dad5af\transformed\jetified-room-runtime\AndroidManifest.xml:26:13-43
+75            android:exported="false" />
+75-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\949330a9e2e95c438af6e24aa4dad5af\transformed\jetified-room-runtime\AndroidManifest.xml:27:13-37
+76
+77        <receiver
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+78            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+79            android:directBootAware="false"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+80            android:enabled="true"
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+81            android:exported="true"
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+82            android:permission="android.permission.DUMP" >
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+84                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+87                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+90                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+93                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\64585d129c38d0cdd17dad6c117df1d7\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+94            </intent-filter>
+95        </receiver>
+96    </application>
+97
+98</manifest>

@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+id btnDelete
+id btnEdit
+id btnSave
+id etDescription
+id etTitle
+id fab_add
+id map
+id root
+id tvDescription
+id tvTitle
+layout activity_add_edit_point
+layout activity_main
+layout activity_point_detail
+string app_name
+style Theme.CEPNM
