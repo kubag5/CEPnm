@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.cepnm.app-mergeDebugResources-40:/values-ca/values-ca.xml",
+            "outputFile": "pl.kubag5.cepnm.app-mergeDebugResources-40:/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Kuba\\.gradle\\caches\\8.11.1\\transforms\\6242e8b83433ddbfd3dab8042e5596e7\\transformed\\core-1.17.0\\res\\values-ca\\values-ca.xml",

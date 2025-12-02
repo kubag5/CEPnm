@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cepnm"
+    package="pl.kubag5.cepnm"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -11,10 +11,10 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
-        android:name="com.example.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="pl.kubag5.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="pl.kubag5.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <supports-screens
         android:anyDensity="true"
@@ -42,10 +42,10 @@
         android:label="CEPNM"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
-        <activity android:name="com.example.cepnm.ui.PointDetailActivity" />
-        <activity android:name="com.example.cepnm.ui.AddEditPointActivity" />
+        <activity android:name="pl.kubag5.cepnm.ui.PointDetailActivity" />
+        <activity android:name="pl.kubag5.cepnm.ui.AddEditPointActivity" />
         <activity
-            android:name="com.example.cepnm.MainActivity"
+            android:name="pl.kubag5.cepnm.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,7 +56,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.cepnm.androidx-startup"
+            android:authorities="pl.kubag5.cepnm.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

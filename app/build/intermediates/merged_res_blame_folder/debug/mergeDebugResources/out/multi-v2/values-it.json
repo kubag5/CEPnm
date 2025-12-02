@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.cepnm.app-mergeDebugResources-40:/values-it/values-it.xml",
+            "outputFile": "pl.kubag5.cepnm.app-mergeDebugResources-40:/values-it/values-it.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Kuba\\.gradle\\caches\\8.11.1\\transforms\\7cd592e3707254453110354f5348b0a5\\transformed\\jetified-osmdroid-android-6.1.14\\res\\values-it\\values-it.xml",

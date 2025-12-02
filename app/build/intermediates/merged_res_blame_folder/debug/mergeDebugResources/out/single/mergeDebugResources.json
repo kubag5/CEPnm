@@ -1,14 +1,14 @@
 [
     {
-        "merged": "com.example.cepnm.app-debug-42:/layout_activity_add_edit_point.xml.flat",
-        "source": "com.example.cepnm.app-main-44:/layout/activity_add_edit_point.xml"
+        "merged": "pl.kubag5.cepnm.app-debug-42:/layout_activity_point_detail.xml.flat",
+        "source": "pl.kubag5.cepnm.app-main-44:/layout/activity_point_detail.xml"
     },
     {
-        "merged": "com.example.cepnm.app-debug-42:/layout_activity_point_detail.xml.flat",
-        "source": "com.example.cepnm.app-main-44:/layout/activity_point_detail.xml"
+        "merged": "pl.kubag5.cepnm.app-debug-42:/layout_activity_main.xml.flat",
+        "source": "pl.kubag5.cepnm.app-main-44:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.cepnm.app-debug-42:/layout_activity_main.xml.flat",
-        "source": "com.example.cepnm.app-main-44:/layout/activity_main.xml"
+        "merged": "pl.kubag5.cepnm.app-debug-42:/layout_activity_add_edit_point.xml.flat",
+        "source": "pl.kubag5.cepnm.app-main-44:/layout/activity_add_edit_point.xml"
     }
 ]

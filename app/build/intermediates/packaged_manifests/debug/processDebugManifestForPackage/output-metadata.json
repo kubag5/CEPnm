@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.cepnm",
+  "applicationId": "pl.kubag5.cepnm",
   "variantName": "debug",
   "elements": [
     {

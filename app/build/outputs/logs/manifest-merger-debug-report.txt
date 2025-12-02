@@ -58,7 +58,7 @@ MERGED from [androidx.sqlite:sqlite-android:2.6.2] C:\Users\Kuba\.gradle\caches\
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\04213f285fb010a3e0986594f7d72aee\transformed\jetified-runtime-annotation\AndroidManifest.xml:2:1-7:12
 MERGED from [org.osmdroid:osmdroid-android:6.1.14] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\7cd592e3707254453110354f5348b0a5\transformed\jetified-osmdroid-android-6.1.14\AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:2:5-32
+		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:2:5-30
 		INJECTED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml
@@ -101,20 +101,20 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ku
 		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
 		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:9:9-67
-activity#com.example.cepnm.ui.PointDetailActivity
-ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:10:9-60
+activity#pl.kubag5.cepnm.ui.PointDetailActivity
+ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:10:9-75
 	android:name
-		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:10:19-57
-activity#com.example.cepnm.ui.AddEditPointActivity
-ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:11:9-61
+		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:10:19-72
+activity#pl.kubag5.cepnm.ui.AddEditPointActivity
+ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:11:9-76
 	android:name
-		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:11:19-58
-activity#com.example.cepnm.MainActivity
+		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:11:19-73
+activity#pl.kubag5.cepnm.MainActivity
 ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:exported
 		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:13:13-36
 	android:name
-		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:12:19-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Kuba\Desktop\kotlinnauka\cepnm\app\src\main\AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
@@ -267,7 +267,7 @@ ADDED from [androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\trans
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
-permission#com.example.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#pl.kubag5.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
@@ -277,7 +277,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#pl.kubag5.cepnm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Kuba\.gradle\caches\8.11.1\transforms\6242e8b83433ddbfd3dab8042e5596e7\transformed\core-1.17.0\AndroidManifest.xml:26:22-94

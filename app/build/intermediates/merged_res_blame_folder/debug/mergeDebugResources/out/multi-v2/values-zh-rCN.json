@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.cepnm.app-mergeDebugResources-40:/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "pl.kubag5.cepnm.app-mergeDebugResources-40:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Kuba\\.gradle\\caches\\8.11.1\\transforms\\cd7594ed028a487f6f924d5ec68ea11b\\transformed\\material-1.13.0\\res\\values-zh-rCN\\values-zh-rCN.xml",

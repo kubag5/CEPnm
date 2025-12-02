@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.cepnm'
+    namespace 'pl.kubag5.cepnm'
     compileSdk 36
 
     defaultConfig {
-        applicationId "com.example.cepnm"
+        applicationId "pl.kubag5.cepnm"
         minSdk 23
         targetSdk 36
         versionCode 1
